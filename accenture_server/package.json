@@ -1,0 +1,26 @@
+{
+  "name": "accenture_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.12",
+    "popper.js": "^1.16.1",
+    "react-bootstrap": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

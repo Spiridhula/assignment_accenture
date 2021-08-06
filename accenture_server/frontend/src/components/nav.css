@@ -1,0 +1,10 @@
+
+.navLink {
+	color: white;
+	text-decoration: none;
+	font-weight: semi-bold;
+	
+}
+
+.navbar a:hover {
+color:#ff6fff;}
