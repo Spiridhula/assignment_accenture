@@ -10,4 +10,4 @@
 7. Run this command to install all the required libraries : npm install
 8. Go back to the previous directory (accenture_server) : cd .. 
 
-Run this command to get the project started : npm run dev
+9. Run this command to get the project started : npm run dev
