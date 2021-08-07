@@ -11,3 +11,10 @@
 8. Go back to the previous directory (accenture_server) : cd .. 
 
 9. Run this command to get the project started : npm run dev
+
+
+## TO RUN THE TESTS
+
+
+1. Go to directory frontend: cd frontend
+2. Run npm test
