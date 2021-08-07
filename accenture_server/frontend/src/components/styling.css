@@ -1,19 +1,14 @@
 .position{
 
 	position: absolute;
-    top: 65%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+	top: 65%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 	width :1200px;
 	height: 500px;
 }
 
-
-.tableStyle {
-	 overflow-y:scroll;
-     height:400px;
-}
 
 .bg{
 	background-color: black;
@@ -27,4 +22,13 @@
 	margin-left: 85px;
 	padding-top:25px;
 
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 300px;
+	overflow: auto;
+}
+.table-wrapper-scroll-y {
+	display: block;
 }

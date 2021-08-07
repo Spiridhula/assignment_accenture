@@ -12,20 +12,20 @@ function App() {
 
     <Router> 
     <div className="bg">
-    <h1 className="title"> DASHBOARD </h1>
+    <h1 className="title">DASHBOARD</h1>
     </div>
     <NavMenu/>
-      <Switch>
-        <Route exact path="/" component={Products} />
-        <Route path="/order" component={OrderPayments} />
-        <Route path="/user" component={UserOrders} />
-      </Switch>
+    <Switch>
+    <Route exact path="/" component={Products} />
+    <Route path="/order" component={OrderPayments} />
+    <Route path="/user" component={UserOrders} />
+    </Switch>
     </Router>
 
 
 
 
-  )
+    )
 }
 
 export default App;
