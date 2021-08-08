@@ -1,5 +1,7 @@
 ## HOW TO SET UP THE PROJECT
 
+To run this project node.js should be installed beforehand.
+
 
 1. Clone the repository.
 2. Install  concurrently with the command : npm install -g concurrently
